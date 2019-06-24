@@ -134,7 +134,7 @@ public class LocationNodeEditor : Editor
             AddEmptyConnection(targetNode);
         }
 
-        
+        serializedObject.ApplyModifiedProperties();
         base.OnInspectorGUI();
     }
 
