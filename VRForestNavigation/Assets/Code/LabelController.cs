@@ -9,6 +9,8 @@ public class LabelController : MonoBehaviour
     public GameObject label;
     public Text labelText;
 
+    public GameObject worldMapCam;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,9 @@ public class LabelController : MonoBehaviour
             Debug.Log("Show/hide label");
       
             label.SetActive(!label.activeSelf);
+            //label.transform.LookAt(worldMapCam.transform.position, Vector3.up);
         }
         //label.transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+        
     }
 }
