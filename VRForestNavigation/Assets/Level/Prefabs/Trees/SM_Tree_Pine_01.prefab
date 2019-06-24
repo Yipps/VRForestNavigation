@@ -105,7 +105,7 @@ Transform:
   m_GameObject: {fileID: 5241392348696105728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -82.06349, y: 4.572969, z: -38.474136}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 5239911148276227876}
   - {fileID: 1856616365498165030}
@@ -176,11 +176,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5235946816260606770}
     m_Modifications:
-    - target: {fileID: 1825284641590848467, guid: 961d6992268149647b5af794590a9851,
-        type: 3}
-      propertyPath: m_Name
-      value: TS_Tree_01
-      objectReference: {fileID: 0}
     - target: {fileID: 233081808259419437, guid: 961d6992268149647b5af794590a9851,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -235,6 +230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825284641590848467, guid: 961d6992268149647b5af794590a9851,
+        type: 3}
+      propertyPath: m_Name
+      value: TS_Tree_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 961d6992268149647b5af794590a9851, type: 3}
