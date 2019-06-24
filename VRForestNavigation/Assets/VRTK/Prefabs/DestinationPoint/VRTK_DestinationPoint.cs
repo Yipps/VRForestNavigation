@@ -167,7 +167,7 @@ namespace VRTK
             currentTeleportState = enableTeleport;
             playArea = VRTK_DeviceFinder.PlayAreaTransform();
             headset = VRTK_DeviceFinder.HeadsetTransform();
-            destinationLocation = (destinationLocation != null ? destinationLocation : transform);
+            //destinationLocation = (destinationLocation != null ? destinationLocation : transform);
         }
 
         protected override void OnDisable()
