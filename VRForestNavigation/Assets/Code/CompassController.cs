@@ -40,7 +40,7 @@ public class CompassController : MonoBehaviour
 
         Vector3 velocity = Vector3.zero;
 
-        Vector3 newRotation = Vector3.SmoothDamp(MagneticNorthArrow.transform.forward, Vector3.right, ref velocity, MagneticNorthSpeed);
+        Vector3 newRotation = Vector3.SmoothDamp(MagneticNorthArrow.transform.forward, -Vector3.right, ref velocity, MagneticNorthSpeed);
         //MagneticNorthArrow.transform.localRotation
         Quaternion lookdir = Quaternion.LookRotation(newRotation, transform.up);
 
