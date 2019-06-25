@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
 
 public class CompassController : MonoBehaviour
 {
@@ -14,7 +15,13 @@ public class CompassController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Get VRTK_ControllerEvent and listen to event?
+        VRTK_SDKManager.instance.scriptAliasRightController.GetComponent<VRTK_ControllerEvents>().GripAxisChanged += DoRotateOrientationArrow;
+    }
+
+    private void OnDisable()
+    {
+        VRTK_SDKManager.instance.scriptAliasRightController.GetComponent<VRTK_ControllerEvents>().GripAxisChanged -= DoRotateOrientationArrow;
     }
 
     // Update is called once per frame
@@ -55,4 +62,12 @@ public class CompassController : MonoBehaviour
     {
         OrientationArrow.transform.Rotate(new Vector3(0, OrientationArrowSpeed * rotateAmount, 0));
     }
+
+    private void DoRotateOrientationArrow(object sender, ControllerInteractionEventArgs e)
+    {
+        print(e.touchpadAxis.x);
+        RotateOrientationArrow(e.touchpadAxis.x);
+    }
+
+
 }
