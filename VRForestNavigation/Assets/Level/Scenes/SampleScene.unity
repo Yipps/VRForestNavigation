@@ -667,6 +667,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de0afbfc1333b524fa02f8dd7110bf31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &488805223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5924929106371971521, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 925573984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &659228197 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3352077945606557734, guid: 50ab427d8ea3cb943b84afd96d700f61,
@@ -1012,6 +1018,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &913383353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7459701097564251286, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 925573984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &925573984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1078,6 +1090,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342587607652278187, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+        type: 3}
+      propertyPath: OrientationArrowSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342587607652278187, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+        type: 3}
+      propertyPath: magneticNorthArrow
+      value: 
+      objectReference: {fileID: 488805223}
+    - target: {fileID: 7342587607652278187, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+        type: 3}
+      propertyPath: orientationArrow
+      value: 
+      objectReference: {fileID: 913383353}
+    - target: {fileID: 7342587607652278187, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+        type: 3}
+      propertyPath: magneticNorthSpeed
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342587607652278187, guid: 7daa61bd4f9fb3b4c81772467802bdd2,
+        type: 3}
+      propertyPath: orientationArrowSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7daa61bd4f9fb3b4c81772467802bdd2, type: 3}
@@ -1349,18 +1386,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnTouchpadAxisChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 925573985}
-        m_MethodName: 
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_ControllerEvents_UnityEvents+ControllerInteractionEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnButtonOnePressed:
