@@ -113,6 +113,7 @@ public class LocationNodeEditor : Editor
                 //    //    UpdateOppositeLocationNodes(targetNode.edges[x]);
                 //    //}
                 //}     
+                targetNode.VRTKDestinations[x].name = "ExitPoint_" + targetNode.edges[x].endNode.name;
             }
 
             if (GUILayout.Button("x", GUILayout.Width(20)))
