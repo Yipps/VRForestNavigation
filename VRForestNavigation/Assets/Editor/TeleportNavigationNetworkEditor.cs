@@ -29,10 +29,10 @@ public class TeleportNavigationNetworkEditor : Editor
         {
             Handles.Label(node.transform.position + Vector3.up * 2, node.name, locationPointStyle);
 
-            foreach(VRTK_DestinationPoint VRTKDestination in node.VRTKDestinations)
+            for(int x = 0; x < node.VRTKDestinations.Count; x++)
             {
-                if (VRTKDestination.destinationLocation != null)
-                    Handles.DrawLine(VRTKDestination.transform.position + Vector3.up, VRTKDestination.destinationLocation.transform.position);
+                //if (node.VRTKDestinations[x].destinationLocation != null)
+                    Handles.DrawLine(node.VRTKDestinations[x].transform.position + Vector3.up, node.edges[x].endNode.teleportLocation.position);
             }
         }
     }

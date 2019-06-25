@@ -104,15 +104,16 @@ public class LocationNodeEditor : Editor
             //When a destination is set
             if (EditorGUI.EndChangeCheck())
             {
-                if (targetNode.edges[x].endNode != null)
-                {
-                    UpdateVRTKDestinations(targetNode, x);
+                //if (targetNode.edges[x].endNode != null)
+                //{
+                //    UpdateVRTKDestinations(targetNode, x);
 
-                    //if (isUndirected)
-                    //{
-                    //    UpdateOppositeLocationNodes(targetNode.edges[x]);
-                    //}
-                }     
+                //    //if (isUndirected)
+                //    //{
+                //    //    UpdateOppositeLocationNodes(targetNode.edges[x]);
+                //    //}
+                //}     
+                targetNode.VRTKDestinations[x].name = "ExitPoint_" + targetNode.edges[x].endNode.name;
             }
 
             if (GUILayout.Button("x", GUILayout.Width(20)))
@@ -134,7 +135,7 @@ public class LocationNodeEditor : Editor
             AddEmptyConnection(targetNode);
         }
 
-        
+        serializedObject.ApplyModifiedProperties();
         base.OnInspectorGUI();
     }
 
@@ -187,23 +188,23 @@ public class LocationNodeEditor : Editor
         exitPoint.transform.localPosition = new Vector3(UnityEngine.Random.Range(-1.0f, 1.0f), 0, UnityEngine.Random.Range(-1.0f, 1.0f)); ;
     }
 
-    private void UpdateVRTKDestinations(LocationNode targetNode)
-    {
-        for (int index = 0; index < targetNode.edges.Count; index++)
-        {
-            //Update the VRTKDestination based on the edge connection end point
-            targetNode.VRTKDestinations[index].destinationLocation = targetNode.edges[index].endNode.teleportLocation;
-            targetNode.VRTKDestinations[index].name = "ExitPoint_" + targetNode.edges[index].endNode.name;
-        }
-    }
+    //private void UpdateVRTKDestinations(LocationNode targetNode)
+    //{
+    //    for (int index = 0; index < targetNode.edges.Count; index++)
+    //    {
+    //        //Update the VRTKDestination based on the edge connection end point
+    //        targetNode.VRTKDestinations[index].destinationLocation = targetNode.edges[index].endNode.teleportLocation;
+    //        targetNode.VRTKDestinations[index].name = "ExitPoint_" + targetNode.edges[index].endNode.name;
+    //    }
+    //}
 
-    private void UpdateVRTKDestinations(LocationNode targetNode, int index)
-    {
-        //Update the VRTKDestination based on the edge connection end point
-        targetNode.VRTKDestinations[index].destinationLocation = targetNode.edges[index].endNode.teleportLocation;
-        targetNode.VRTKDestinations[index].name = "ExitPoint_" + targetNode.edges[index].endNode.name;
+    //private void UpdateVRTKDestinations(LocationNode targetNode, int index)
+    //{
+    //    //Update the VRTKDestination based on the edge connection end point
+    //    targetNode.VRTKDestinations[index].destinationLocation = targetNode.edges[index].endNode.teleportLocation;
+    //    targetNode.VRTKDestinations[index].name = "ExitPoint_" + targetNode.edges[index].endNode.name;
 
-    }
+    //}
 
     private void UpdateOppositeLocationNodes(LocationNodeEdge targetEdge)
     {
@@ -228,7 +229,7 @@ public class LocationNodeEditor : Editor
             LocationNodeEdge corrospondingEdge = new LocationNodeEdge(oppositeLocationNode, currentNode, targetEdge.weight);
             oppositeLocationNode.edges.Add(corrospondingEdge);
             AddExitPoints(oppositeLocationNode);
-            UpdateVRTKDestinations(oppositeLocationNode);
+            //UpdateVRTKDestinations(oppositeLocationNode);
         }
 
 
