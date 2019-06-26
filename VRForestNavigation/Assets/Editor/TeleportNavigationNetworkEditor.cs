@@ -11,7 +11,6 @@ public class TeleportNavigationNetworkEditor : Editor
     LocationNode[] nodes;
     GUIStyle locationPointStyle;
 
-
     private void OnEnable()
     {
         navNet = (TeleportNavigationNetwork)target;
@@ -31,7 +30,7 @@ public class TeleportNavigationNetworkEditor : Editor
 
             for(int x = 0; x < node.VRTKDestinations.Count; x++)
             {
-                //if (node.VRTKDestinations[x].destinationLocation != null)
+                if(node.edges[x].endNode != null)
                     Handles.DrawLine(node.VRTKDestinations[x].transform.position + Vector3.up, node.edges[x].endNode.teleportLocation.position);
             }
         }
