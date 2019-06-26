@@ -232,11 +232,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62ec4383b09f1e140885006ddb8a2f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MagneticNorthArrow: {fileID: 5924929106371971521}
-  OrientationArrow: {fileID: 7459701097564251286}
+  magneticNorthArrow: {fileID: 0}
+  orientationArrow: {fileID: 0}
   up: {fileID: 6720817844328714713}
-  MagneticNorthSpeed: 0.2
-  OrientationArrowSpeed: 0
+  magneticNorthSpeed: 0
+  orientationArrowSpeed: 0
 --- !u!1 &7459701097564251286
 GameObject:
   m_ObjectHideFlags: 0
