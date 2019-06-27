@@ -19,7 +19,7 @@ public class LabelController : MonoBehaviour
             //set map pin and label to invisible
             mapPin.SetActive(false);
             label.SetActive(false);
-
+            
             //change name of pin to location name
             labelText.text = this.name;
 
