@@ -82,7 +82,7 @@ public class CompassController : MonoBehaviour
         StopAllCoroutines();
     }
 
-    private void DoSetOrientationMovementAmount(object sender, ControllerInteractionEventArgs e)
+    public void DoSetOrientationMovementAmount(object sender, ControllerInteractionEventArgs e)
     {
         
         float amt = e.touchpadAxis.x;
@@ -96,6 +96,8 @@ public class CompassController : MonoBehaviour
         orientationMovementAmt = amt;
 
     }
+
+
 
 
 }
