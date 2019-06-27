@@ -1,74 +1,24 @@
 fileFormatVersion: 2
-guid: 89032d089037adf419e45109652746d3
+guid: 1dd9dd19c49774446a6bd9c3b7aa9a2d
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: pCube1
-    100002: pCube2
-    100004: pCube3
-    100006: pCube4
-    100008: pCube5
-    100010: pCube6
-    100012: pCube7
-    100014: pPlane1
-    100016: pPlane2
-    100018: //RootNode
-    400000: pCube1
-    400002: pCube2
-    400004: pCube3
-    400006: pCube4
-    400008: pCube5
-    400010: pCube6
-    400012: pCube7
-    400014: pPlane1
-    400016: pPlane2
-    400018: //RootNode
-    2100000: Tent_doors
-    2100002: Tent_Main
-    2100004: Ropes
-    2300000: pCube1
-    2300002: pCube2
-    2300004: pCube3
-    2300006: pCube4
-    2300008: pCube5
-    2300010: pCube6
-    2300012: pCube7
-    2300014: pPlane1
-    2300016: pPlane2
-    3300000: pCube1
-    3300002: pCube2
-    3300004: pCube3
-    3300006: pCube4
-    3300008: pCube5
-    3300010: pCube6
-    3300012: pCube7
-    3300014: pPlane1
-    3300016: pPlane2
-    4300000: pPlane1
-    4300002: pPlane2
-    4300004: pCube1
-    4300006: pCube4
-    4300008: pCube2
-    4300010: pCube3
-    4300012: pCube6
-    4300014: pCube7
-    4300016: pCube5
+  serializedVersion: 25
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ropes
-    second: {fileID: 2100000, guid: 019ee5ca50ab218479d99ce81e45d2f3, type: 2}
+    second: {fileID: 2100000, guid: 11c9d57462a2fb8459525768e88d897c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tent_Main
-    second: {fileID: 2100000, guid: 8b93a29c04cfa1547b941fc00fa84c0d, type: 2}
+    second: {fileID: 2100000, guid: e9def2080260d954fa85971d1d55bec2, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Tent_doors
-    second: {fileID: 2100000, guid: d0ff291519e275d48bac8cd0b54cba3f, type: 2}
+      name: T_Tent
+    second: {fileID: 2800000, guid: e20cf766ea7bef644b470e663f8b6b23, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -96,7 +46,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -110,18 +60,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -130,10 +81,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -143,6 +95,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
