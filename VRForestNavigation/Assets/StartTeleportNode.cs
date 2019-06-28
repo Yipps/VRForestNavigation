@@ -9,14 +9,21 @@ public class StartTeleportNode : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        VRTK_HeightAdjustTeleport teleporter = FindObjectOfType<VRTK_HeightAdjustTeleport>();
-
-        teleporter.Teleport(StartingNode.teleportLocation, StartingNode.teleportLocation.position);
+        StartCoroutine(TeleportCouroutine());
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    IEnumerator TeleportCouroutine()
+    {
+        yield return new WaitForSeconds(1f);
+
+        VRTK_HeightAdjustTeleport teleporter = FindObjectOfType<VRTK_HeightAdjustTeleport>();
+
+        teleporter.Teleport(StartingNode.teleportLocation, StartingNode.teleportLocation.position);
     }
 }
