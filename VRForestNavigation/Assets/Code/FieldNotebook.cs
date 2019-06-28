@@ -8,7 +8,7 @@ public class FieldNotebook : MonoBehaviour
 {
     Animator anim;
     private int currentPage = 0;
-    public int numOfPages = 8;
+    public int numOfPages = 6;
 
     // Start is called before the first frame update
     void Start()
