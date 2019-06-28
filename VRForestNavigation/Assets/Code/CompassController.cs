@@ -91,7 +91,6 @@ public class CompassController : MonoBehaviour
         {
             amt = 0;
         }
-        print(amt);
 
         orientationMovementAmt = amt;
 

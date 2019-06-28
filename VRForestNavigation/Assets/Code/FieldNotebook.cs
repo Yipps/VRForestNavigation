@@ -10,6 +10,8 @@ public class FieldNotebook : MonoBehaviour
     private int currentPage = 0;
     public int numOfPages = 6;
 
+    private bool hasChangedPage = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,19 +30,41 @@ public class FieldNotebook : MonoBehaviour
 
     private void DoChangePage(object sender, ControllerInteractionEventArgs e)
     {
-        int pageChangeIndex = 1;
+        //print("Raw input = " + e.touchpadAxis.x);
+        int pageChangeIndex = 0;
 
-        if(e.touchpadAxis.x < 0)
+        if (e.touchpadAxis.x > 0.3f)
+        {
+            pageChangeIndex = 1;
+            ChangePage(pageChangeIndex);
+        }
+        else if(e.touchpadAxis.x < -0.3f)
         {
             pageChangeIndex = -1;
+            ChangePage(pageChangeIndex);
+        }
+        else
+        {
+            hasChangedPage = false;
         }
 
-        ChangePage(pageChangeIndex);
+        
     }
 
-    private void ChangePage(float pageChange)
+    private void ChangePage(int pageChange)
     {
-        currentPage = (int) Mathf.Clamp(currentPage + pageChange, 0, numOfPages);
-        anim.SetInteger("CurrentPage", currentPage);
+        
+        if (!hasChangedPage)
+        {
+            print("input: " + pageChange);
+
+            hasChangedPage = true;
+            currentPage = (int)Mathf.Clamp(currentPage + pageChange, 0, numOfPages);
+            print(currentPage);
+            anim.SetInteger("CurrentPage", currentPage);
+
+            print(currentPage);
+        }
+
     }
 }
