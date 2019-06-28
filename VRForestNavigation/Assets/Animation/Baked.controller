@@ -430,7 +430,7 @@ AnimatorController:
   - m_Name: currentPage
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 0
+    m_DefaultInt: 1
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: Blend
@@ -629,9 +629,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: currentPage
     m_EventTreshold: 2
-  - m_ConditionMode: 3
-    m_ConditionEvent: currentPage
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2341524671137093596}
   m_Solo: 0
