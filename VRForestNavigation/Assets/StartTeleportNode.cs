@@ -15,13 +15,15 @@ public class StartTeleportNode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        VRTK_HeightAdjustTeleport teleporter = FindObjectOfType<VRTK_HeightAdjustTeleport>();
+
+        teleporter.Teleport(StartingNode.teleportLocation, StartingNode.teleportLocation.position);
     }
 
     IEnumerator TeleportCouroutine()
     {
-        yield return new WaitForSeconds(1f);
-
+        yield return new WaitForSeconds(2f);
+        print("try to teleport");
         VRTK_HeightAdjustTeleport teleporter = FindObjectOfType<VRTK_HeightAdjustTeleport>();
 
         teleporter.Teleport(StartingNode.teleportLocation, StartingNode.teleportLocation.position);
