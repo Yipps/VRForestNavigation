@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     private int currentLeftObjectIndex = 0;
     private int currentRightObjectIndex = 0;
 
-    private int currentTimeMin = 90;
+    private int currentTimeMin = 800;
     
 
 
