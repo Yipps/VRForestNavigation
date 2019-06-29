@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using VRTK;
 
@@ -10,6 +11,9 @@ public class PlayerManager : MonoBehaviour
 
     private int currentLeftObjectIndex = 0;
     private int currentRightObjectIndex = 0;
+
+    private int currentTimeMin = 90;
+    
 
 
     private void Start()
@@ -38,7 +42,8 @@ public class PlayerManager : MonoBehaviour
             }
         }
 
-        
+        TimeSpan ts = TimeSpan.FromMinutes(currentTimeMin);
+        print(ts);
     }
 
     private void OnEnable()
