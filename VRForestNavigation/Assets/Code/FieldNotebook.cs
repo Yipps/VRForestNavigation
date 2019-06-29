@@ -7,6 +7,7 @@ using VRTK;
 public class FieldNotebook : MonoBehaviour
 {
     Animator anim;
+    public GameObject fuckedUpPage;
     private int currentPage = 0;
     public int numOfPages = 6;
 
@@ -56,6 +57,18 @@ public class FieldNotebook : MonoBehaviour
         
         if (!hasChangedPage)
         {
+            if (currentPage == 4 && pageChange == -1)
+            {
+                fuckedUpPage.SetActive(false);
+                print("hide the lies");
+            }
+            else
+            {
+                fuckedUpPage.SetActive(true);
+            }
+
+            
+
             print("input: " + pageChange);
 
             hasChangedPage = true;
