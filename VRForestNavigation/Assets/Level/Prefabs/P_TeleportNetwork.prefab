@@ -497,7 +497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132265339444934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -91.371826, y: 59.72055, z: 335.3452}
+  m_LocalPosition: {x: -127.98, y: 55.68, z: 274.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227106660016707}
@@ -554,7 +554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132265482273749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -380.23462, y: 20.395107, z: 347.70386}
+  m_LocalPosition: {x: -381.214, y: 20.291, z: 345.596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227106787196752}
@@ -616,7 +616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132265514870390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 496.352, y: 183.7, z: 314.14}
+  m_LocalPosition: {x: 494.4, y: 182.34, z: 287.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227106886818547}
@@ -725,7 +725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132265849881393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 162.77, y: 232.13, z: 287.34}
+  m_LocalPosition: {x: 112.04, y: 232.97, z: 271.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227108298735540}
@@ -1119,7 +1119,7 @@ MonoBehaviour:
     endNode: {fileID: 8997433041557983060}
     weight: -1
   - startNode: {fileID: 8997433041483655466}
-    endNode: {fileID: 8997433040988155480}
+    endNode: {fileID: 8997433042217218473}
     weight: -1
   VRTKDestinations:
   - {fileID: 3120975790819638595}
@@ -1211,7 +1211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132266344860041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 628.6, y: 225.83, z: 486.8}
+  m_LocalPosition: {x: 668.27, y: 228.55, z: 504.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227107669701900}
@@ -1345,7 +1345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132266451122567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -72.06, y: 25.486149, z: 93.88}
+  m_LocalPosition: {x: -63.3, y: 28.191, z: 108.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227107830400258}
@@ -1401,8 +1401,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132266622099464}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -455.46, y: 54.14, z: 100.27}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -452.9, y: 55.54, z: 106.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227107926940813}
@@ -1520,8 +1520,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540132266802825213}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -650.57, y: 36.49, z: 105.39}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -626.3, y: 37.9, z: 90.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7157227108149689208}
@@ -2241,7 +2241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3120975790150872093}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.25, y: 1.2199993, z: 2.3899994}
+  m_LocalPosition: {x: 4.1800003, y: 0.010000229, z: -2.0199966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3120975791677041705}
@@ -3700,13 +3700,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405635173857240}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342005830035302}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &5279405635186089831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,13 +3760,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405635281562315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342005988670069}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &5279405635383250792
 GameObject:
   m_ObjectHideFlags: 0
@@ -3790,13 +3790,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405635383250792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.3025733, z: -0, w: 0.95312613}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342006090293206}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -35.224003, z: 0}
 --- !u!1 &5279405635437683939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3850,13 +3850,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405635716180527}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.91697276, z: -0, w: 0.39895004}
   m_LocalPosition: {x: 0, y: 0.11515808, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342005352626833}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -132.975, z: 0}
 --- !u!1 &5279405635803068025
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,13 +4090,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405636177436823}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342004690137129}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &5279405636181722552
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,7 +4151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405636352266393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07620239, y: 0, z: 0.028366089}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342004861222951}
@@ -4180,13 +4180,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405636423502102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342004983060904}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &5279405636546722052
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,7 +4241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5279405636670533347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.06618118, z: 0.49999237}
+  m_LocalPosition: {x: 0, y: -0.06618118, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5881342005214166621}
@@ -4254,6 +4254,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006316680417}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_10StevensRailwayEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4309,11 +4314,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_10StevensRailwayEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790547191178 stripped
@@ -4341,6 +4341,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006457487871}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_6CherisonFallsSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4396,11 +4401,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_6CherisonFallsSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790559119969 stripped
@@ -4428,6 +4428,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005443439457}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_9StevensRailwaySouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4483,11 +4488,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_9StevensRailwaySouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790541367747 stripped
@@ -4515,6 +4515,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004694095110}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_12LakeTamadonNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4570,11 +4575,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_12LakeTamadonNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790522761173 stripped
@@ -4602,6 +4602,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005059086778}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_6CherisonFallsSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4657,11 +4662,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_6CherisonFallsSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790729080374 stripped
@@ -4689,20 +4689,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005214166621}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_22LakeEzra
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04095459
+      value: 4.9
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.4073639
+      value: -3.37
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -4744,11 +4749,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_22LakeEzra
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790677006884 stripped
@@ -4776,20 +4776,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004690137129}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_21MountCesarEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.28094482
+      value: -5.869995
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.070007324
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.27667236
+      value: 1.1600037
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -4831,11 +4836,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_21MountCesarEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790631908125 stripped
@@ -4863,6 +4863,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004694095110}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_7CherisonFallsNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4918,11 +4923,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_7CherisonFallsNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790628256003 stripped
@@ -4950,6 +4950,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006408411240}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_9StevensRailwaySouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5005,11 +5010,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_9StevensRailwaySouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790864089378 stripped
@@ -5037,20 +5037,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004690137129}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_18MountLuisSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.65789795
+      value: -6.580017
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.05999756
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2958374
+      value: -6.6099854
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5092,11 +5097,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_18MountLuisSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790879185691 stripped
@@ -5124,6 +5124,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005729073316}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_3MountOwensLookout
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5179,11 +5184,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_3MountOwensLookout
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790819638595 stripped
@@ -5211,6 +5211,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004694095110}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_15RoerickRiverEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5266,11 +5271,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_15RoerickRiverEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791002765336 stripped
@@ -5298,6 +5298,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006408411240}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_11StevensRailwayNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5353,11 +5358,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_11StevensRailwayNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790999032442 stripped
@@ -5385,20 +5385,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006090293206}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_20CampDiego
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5440063
+      value: -3.630005
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.011001587
+      value: 0.21000671
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7390137
+      value: 4.720001
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5440,11 +5445,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_20CampDiego
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790980838258 stripped
@@ -5472,6 +5472,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005770178084}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_17MaryHill
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5527,11 +5532,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_17MaryHill
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790968018211 stripped
@@ -5559,6 +5559,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006376854161}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_9StevensRailwaySouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5614,11 +5619,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_9StevensRailwaySouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790956444210 stripped
@@ -5646,6 +5646,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004694095110}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_18MountLuisSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5701,11 +5706,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_18MountLuisSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790900137602 stripped
@@ -5733,6 +5733,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006408411240}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_17MaryHill
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5788,11 +5793,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_17MaryHill
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790057701417 stripped
@@ -5820,6 +5820,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004690137129}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: NO_DESTINATION
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5875,11 +5880,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: NO_DESTINATION
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790052252273 stripped
@@ -5907,20 +5907,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005586644158}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_25RoerickRiverNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.82
+      value: -2.8200073
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24
+      value: -0.23999977
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.15
+      value: 0.15000153
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5962,11 +5967,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_25RoerickRiverNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790198402852 stripped
@@ -5994,6 +5994,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005443439457}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_14LakeTamadonNortheast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6049,11 +6054,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_14LakeTamadonNortheast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790189857790 stripped
@@ -6081,20 +6081,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004983060904}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_23LakeVanDerMarel
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.43603516
+      value: -5.3099976
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.08000183
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.25128937
+      value: -2.4700012
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6136,11 +6141,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_23LakeVanDerMarel
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790163050774 stripped
@@ -6168,6 +6168,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005770178084}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_16RoerickRiverMid
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6223,11 +6228,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_16RoerickRiverMid
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790157528535 stripped
@@ -6255,6 +6255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005402019527}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_14LakeTamadonNortheast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6310,11 +6315,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_14LakeTamadonNortheast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790107109479 stripped
@@ -6342,20 +6342,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005352626833}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_18MountLuisSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3444519
+      value: 5.7699966
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.057235718
+      value: 0.039993286
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2548523
+      value: 1.3900146
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6396,11 +6401,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_18MountLuisSouth
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
@@ -6429,10 +6429,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005585608410}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_5CherisonFallsLookout
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.04
+      value: 8.040001
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6442,7 +6447,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.69
+      value: 1.6900024
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6483,11 +6488,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_5CherisonFallsLookout
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
@@ -6516,20 +6516,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005586644158}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_15RoerickRiverEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.13
+      value: 4.130005
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.24
+      value: 0.23999977
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.94
+      value: -0.94000244
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6571,11 +6576,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_15RoerickRiverEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790274729938 stripped
@@ -6603,20 +6603,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005988670069}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_23LakeVanDerMarel
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.17837524
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.8908081
+      value: -6.24
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6658,11 +6663,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_23LakeVanDerMarel
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975790230822861 stripped
@@ -6690,6 +6690,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005402019527}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_9StevensRailwaySouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6745,11 +6750,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_9StevensRailwaySouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975790231035979 stripped
@@ -6777,20 +6777,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004983060904}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_2MountOwensWest
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4360962
+      value: -0.5499878
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.027076721
+      value: -0.22999954
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.22824097
+      value: 9.159996
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6831,11 +6836,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_2MountOwensWest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
@@ -6864,20 +6864,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005214166621}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_24RoerickRiverWest
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.8111572
+      value: -5.28
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.62
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.28334808
+      value: 4.74
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6918,11 +6923,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_24RoerickRiverWest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
@@ -6951,20 +6951,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005830035302}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_20CampDiego
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.84632874
+      value: 7.010002
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5400009
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.8182678
+      value: 5.9100037
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -7006,11 +7011,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_20CampDiego
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791650371344 stripped
@@ -7038,6 +7038,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005609358101}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_13LakeTamadonSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7093,11 +7098,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_13LakeTamadonSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791619682581 stripped
@@ -7125,20 +7125,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004983060904}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_24RoerickRiverWest
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9696655
+      value: -6.8900146
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.20677185
+      value: -0.31000137
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.45095062
+      value: 6.779999
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -7180,11 +7185,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_24RoerickRiverWest
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791626898910 stripped
@@ -7212,6 +7212,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005443439457}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_17MaryHill
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7267,11 +7272,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_17MaryHill
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791588091162 stripped
@@ -7299,6 +7299,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005748740951}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_8StevensRailway
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7354,11 +7359,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_8StevensRailway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791805513062 stripped
@@ -7386,6 +7386,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005609358101}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_12LakeTamadonNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7441,11 +7446,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_12LakeTamadonNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791723467595 stripped
@@ -7473,6 +7473,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005893189593}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: NO_DESTINATION
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7528,11 +7538,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: NO_DESTINATION
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791952949786 stripped
@@ -7560,20 +7565,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005988670069}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_22LakeEzra
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.24438477
+      value: 5.213
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6439209
+      value: -3.627
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -7615,11 +7625,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_22LakeEzra
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791861223390 stripped
@@ -7647,6 +7652,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005609358101}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_10StevensRailwayEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7702,11 +7712,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_10StevensRailwayEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791864317867 stripped
@@ -7734,6 +7739,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005609358101}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_7CherisonFallsNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7789,11 +7799,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_7CherisonFallsNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791820706056 stripped
@@ -7821,6 +7826,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005609358101}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_8StevensRailway
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7876,11 +7886,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_8StevensRailway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975792051266409 stripped
@@ -7908,10 +7913,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005585608410}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_1RangerStation
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.57
+      value: 3.5699997
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -7963,11 +7973,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_1RangerStation
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975792046777814 stripped
@@ -7995,20 +8000,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006090293206}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_19MountLuisEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1499939
+      value: 4.470001
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13999939
+      value: 0.13000488
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2399902
+      value: 3.1400146
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -8050,11 +8060,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_19MountLuisEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975792047970901 stripped
@@ -8082,6 +8087,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005748740951}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_5CherisonFallsLookout
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8137,11 +8147,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_5CherisonFallsLookout
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975792013404232 stripped
@@ -8169,6 +8174,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005748740951}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_7CherisonFallsNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8224,11 +8234,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_7CherisonFallsNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791973901153 stripped
@@ -8256,20 +8261,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005893189593}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_24RoerickRiverWest
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.92907715
+      value: -2.4599915
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.099998474
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.8898926
+      value: -2.7000122
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -8311,11 +8321,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_24RoerickRiverWest
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791959660448 stripped
@@ -8343,6 +8348,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004694095110}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_10StevensRailwayEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8398,11 +8408,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_10StevensRailwayEast
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791131755809 stripped
@@ -8430,6 +8435,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006376854161}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_6CherisonFallsSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8485,11 +8495,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_6CherisonFallsSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791117092038 stripped
@@ -8517,6 +8522,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006376854161}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_17MaryHill
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8572,11 +8582,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_17MaryHill
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791037846094 stripped
@@ -8604,6 +8609,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005729073316}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_2MountOwensWest
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8659,11 +8669,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_18MountLuisSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791045703677 stripped
@@ -8691,6 +8696,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005059086778}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_9StevensRailwaySouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8746,11 +8756,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_9StevensRailwaySouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791040330401 stripped
@@ -8778,20 +8783,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005830035302}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_19MountLuisEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4440689
+      value: -1.4200058
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.20000076
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.32125854
+      value: 9.709991
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -8832,11 +8842,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_19MountLuisEast
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
@@ -8865,20 +8870,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005988670069}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_25RoerickRiverNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1347351
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.9126587
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -8920,11 +8930,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_25RoerickRiverNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791269220156 stripped
@@ -8952,6 +8957,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006822113915}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_12LakeTamadonNorth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9007,11 +9017,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_12LakeTamadonNorth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791265102677 stripped
@@ -9039,20 +9044,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342004861222951}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_22LakeEzra
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.0999985
+      value: -4.579998
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6000004
+      value: 0.069999695
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.299995
+      value: -1.6200027
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -9094,11 +9104,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_22LakeEzra
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791219812724 stripped
@@ -9126,10 +9131,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005585608410}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_22LakeEzra
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1
+      value: 4.0999985
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -9139,7 +9149,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.86
+      value: 7.8600006
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -9181,11 +9191,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_22LakeEzra
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!4 &3120975791174643720 stripped
@@ -9213,6 +9218,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006822113915}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_13LakeTamadonSouth
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9268,11 +9278,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_13LakeTamadonSouth
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791400200777 stripped
@@ -9300,20 +9305,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342006090293206}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_17MaryHill
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26901245
+      value: -6.450012
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13600159
+      value: -0.11999512
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.1159973
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -9355,11 +9365,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_17MaryHill
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
 --- !u!114 &3120975791377354723 stripped
@@ -9387,20 +9392,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881342005352626833}
     m_Modifications:
+    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitPoint_21MountCesarEast
+      objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.45135498
+      value: -1.4199982
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.7899933
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.739624
+      value: 7.23999
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -9441,11 +9451,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
-        type: 3}
-      propertyPath: m_Name
-      value: ExitPoint_21MountCesarEast
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ab427d8ea3cb943b84afd96d700f61, type: 3}
