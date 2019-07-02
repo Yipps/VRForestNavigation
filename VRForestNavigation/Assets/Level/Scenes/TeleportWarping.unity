@@ -639,6 +639,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.00022246
       objectReference: {fileID: 0}
+    - target: {fileID: 8101548372413351244, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8101548372413351250, guid: e5d9c772569791d45b539a7d60549ad4,
         type: 3}
       propertyPath: m_IsTrigger
