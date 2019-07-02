@@ -7,7 +7,10 @@ using VRTK;
 public class FieldNotebook : MonoBehaviour
 {
     Animator anim;
-    public GameObject fuckedUpPage;
+    public GameObject[] pageMeshes;
+    private GameObject brokenPage;
+
+
     private int currentPage = 0;
     public int numOfPages = 6;
 
@@ -57,14 +60,55 @@ public class FieldNotebook : MonoBehaviour
         
         if (!hasChangedPage)
         {
+            //Going Backwards
+            if (pageChange == -1)
+            {
+                if (brokenPage != null)
+                    brokenPage.SetActive(true);
+
+
+                if (currentPage == 4)
+                {
+                    brokenPage = pageMeshes[0];
+                    brokenPage.SetActive(false);
+                }
+                //else if (currentPage == 5)
+                //{
+                //    brokenPage = pageMeshes[2];
+                //    brokenPage.SetActive(false);
+                //}
+                else if (currentPage == 6)
+                {
+                    brokenPage = pageMeshes[2];
+                    brokenPage.SetActive(false);
+                }
+            //Going forward
+            }else if(pageChange == 1)
+            {
+                if (brokenPage != null && currentPage != 6)
+                    brokenPage.SetActive(true);
+
+                //Does not look correct because a page disappears before the page turns to hide it
+                if (currentPage == 5 )
+                {
+                    StartCoroutine(DelayPageHide());
+                }
+
+                if(currentPage == 3)
+                {
+                    brokenPage = pageMeshes[0];
+                    brokenPage.SetActive(false);
+                }
+            }
+
             if (currentPage == 4 && pageChange == -1)
             {
-                fuckedUpPage.SetActive(false);
+                //messedUpPage1.SetActive(false);
                 print("hide the lies");
             }
             else
             {
-                fuckedUpPage.SetActive(true);
+                //messedUpPage1.SetActive(true);
             }
 
             
@@ -79,5 +123,12 @@ public class FieldNotebook : MonoBehaviour
             print(currentPage);
         }
 
+    }
+
+    IEnumerator DelayPageHide()
+    {
+        yield return new WaitForSeconds(0.5f);
+        brokenPage = pageMeshes[3];
+        brokenPage.SetActive(false);
     }
 }

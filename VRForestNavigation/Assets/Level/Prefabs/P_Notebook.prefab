@@ -130,7 +130,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3576b352863cad443802e9f02499126a, type: 2}
+  - {fileID: 2100000, guid: fd59179f53ca21e43a0dc9f6d7161e12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1581,7 +1581,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18694d8c822a6e54d8662e92abc4161b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuckedUpPage: {fileID: 161689884209749183}
+  pageMeshes:
+  - {fileID: 161689884209749183}
+  - {fileID: 2556972074535363531}
+  - {fileID: 9165641499396055867}
+  - {fileID: 1515732148649998217}
+  - {fileID: 9180136749587896044}
+  - {fileID: 20521798924091612}
   numOfPages: 6
 --- !u!114 &1692232765
 MonoBehaviour:
