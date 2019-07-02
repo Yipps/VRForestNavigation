@@ -1001,6 +1001,71 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6402540106358156122, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 960068041492130790, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755742403130692271, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755742403130692271, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755742403130692271, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755742403130692271, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755742403130692271, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570727743867139562, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359926942488644771, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359926942488644771, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359926942488644771, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359926942488644771, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359926942488644771, guid: e5d9c772569791d45b539a7d60549ad4,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d9c772569791d45b539a7d60549ad4, type: 3}
 --- !u!114 &484100642 stripped
@@ -5621,7 +5686,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.188469
+      value: 5.6673965
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6020,7 +6085,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_Name
-      value: ExitPoint_1.5GrigorHill
+      value: ExitPoint_2GrigorHill
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -6278,7 +6343,7 @@ PrefabInstance:
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
       propertyPath: edges.Array.data[0].weight
-      value: -1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
@@ -6298,7 +6363,7 @@ PrefabInstance:
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
       propertyPath: edges.Array.data[1].weight
-      value: -1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
@@ -9058,7 +9123,7 @@ MonoBehaviour:
   edges:
   - startNode: {fileID: 8997433040960690574}
     endNode: {fileID: 3298731924073937888}
-    weight: -1
+    weight: 30
   - startNode: {fileID: 8997433040960690574}
     endNode: {fileID: 0}
     weight: -1
