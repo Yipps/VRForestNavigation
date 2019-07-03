@@ -22,9 +22,9 @@ public class WatchController : MonoBehaviour
         int currentHour = currentTimeMin / 60;
         currentTimeMin += additionalTime;
 
-        if(currentHour != currentTimeMin / 60)
+        if(currentHour != currentTimeMin / 60 && watchSound != null)
         {
-            watchSound.Play();
+            watchSound.PlayDelayed(3f);
         }
 
         TimeSpan ts = TimeSpan.FromMinutes(currentTimeMin);
