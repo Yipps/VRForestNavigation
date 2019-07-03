@@ -13,6 +13,9 @@ public class PlayerManager : MonoBehaviour
     private int currentRightObjectIndex = 0;
 
     private int currentTimeMin = 800;
+
+
+
     
 
 
@@ -101,6 +104,7 @@ public class PlayerManager : MonoBehaviour
     {
         NextHandObject(0);
     }
+
 
 
 
