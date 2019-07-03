@@ -12,8 +12,6 @@ public class PlayerManager : MonoBehaviour
     private int currentLeftObjectIndex = 0;
     private int currentRightObjectIndex = 0;
 
-    private int currentTimeMin = 800;
-
 
 
     
@@ -44,9 +42,6 @@ public class PlayerManager : MonoBehaviour
                 rightHandObjects[x].SetActive(false);
             }
         }
-
-        TimeSpan ts = TimeSpan.FromMinutes(currentTimeMin);
-        print(ts);
     }
 
     private void OnEnable()
