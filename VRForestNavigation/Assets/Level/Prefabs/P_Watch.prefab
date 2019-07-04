@@ -124,6 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b47616ef69d304a946be55cbe102c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  watchDelay: 3
+  pulseInterval: 0.5
+  pulseDuration: 2
+  pulseStr: 0.5
 --- !u!82 &8576011933096777294
 AudioSource:
   m_ObjectHideFlags: 0
