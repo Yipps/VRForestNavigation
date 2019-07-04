@@ -10,7 +10,7 @@ public class FieldNotebook : MonoBehaviour
     public GameObject[] pageMeshes;
     private GameObject brokenPage;
 
-
+    private AudioSource audioSource;
     private int currentPage = 0;
     public int numOfPages = 6;
 
@@ -20,6 +20,7 @@ public class FieldNotebook : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -114,7 +115,10 @@ public class FieldNotebook : MonoBehaviour
             
 
             print("input: " + pageChange);
-
+            if(currentPage + pageChange >= 0 && currentPage + pageChange <= 6)
+            {
+                audioSource.Play();
+            }
             hasChangedPage = true;
             currentPage = (int)Mathf.Clamp(currentPage + pageChange, 0, numOfPages);
             print(currentPage);
