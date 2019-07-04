@@ -2,9 +2,12 @@
 using UnityEngine;
 using TMPro;
 using VRTK;
+using System.Collections;
 
 public class WatchController : MonoBehaviour
 {
+    public float watchDelay = 3;
+
     private AudioSource watchSound;
     private int currentTimeMin = 725;
     TextMeshPro timeText;
@@ -24,11 +27,22 @@ public class WatchController : MonoBehaviour
 
         if(currentHour != currentTimeMin / 60 && watchSound != null)
         {
-            watchSound.PlayDelayed(3f);
+
+            StartCoroutine(DelayedPulse());
         }
 
         TimeSpan ts = TimeSpan.FromMinutes(currentTimeMin);
         timeText.text = string.Format(" {0:00}\n:{1:00}", ts.TotalHours, ts.Minutes);
+    }
+
+    public IEnumerator DelayedPulse()
+    {
+        yield return new WaitForSeconds(watchDelay);
+        watchSound.Play();
+
+        GameObject leftHand = VRTK_SDKManager.instance.scriptAliasLeftController;
+        VRTK_ControllerHaptics.TriggerHapticPulse(VRTK.VRTK_ControllerReference.GetControllerReference(leftHand), watchSound.clip);
+
     }
 
     public void DoUpdateWatchTime(object sender, DestinationMarkerEventArgs e)
@@ -36,4 +50,6 @@ public class WatchController : MonoBehaviour
         int additionalTime = UnityEngine.Random.Range(30, 40);
         UpdateWatchTime(additionalTime);
     }
+
+    
 }
