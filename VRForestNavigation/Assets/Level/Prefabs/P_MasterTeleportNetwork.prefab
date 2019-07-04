@@ -667,7 +667,7 @@ MonoBehaviour:
     endNode: {fileID: 6381660271721443101}
     weight: -1
   - startNode: {fileID: 6381660271834499304}
-    endNode: {fileID: 0}
+    endNode: {fileID: 3878009586611829517}
     weight: -1
   VRTKDestinations:
   - {fileID: 1081591138152621721}
@@ -777,7 +777,7 @@ MonoBehaviour:
     endNode: {fileID: 6381660271834499304}
     weight: -1
   - startNode: {fileID: 6381660271721443101}
-    endNode: {fileID: 0}
+    endNode: {fileID: 3878009586611829517}
     weight: -1
   VRTKDestinations:
   - {fileID: 1081591138331769577}
@@ -1171,7 +1171,7 @@ MonoBehaviour:
     endNode: {fileID: 6381660271364087294}
     weight: -1
   - startNode: {fileID: 6381660273218385446}
-    endNode: {fileID: 0}
+    endNode: {fileID: 3878009586611829517}
     weight: -1
   VRTKDestinations:
   - {fileID: 777296152223027821}
@@ -1515,7 +1515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7856895612251458273}
   m_LocalRotation: {x: -0, y: -0.91697276, z: -0, w: 0.39895004}
-  m_LocalPosition: {x: -2.878, y: 0.37, z: -2.577}
+  m_LocalPosition: {x: -1.0400009, y: 0.33999634, z: -1.3399963}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8490344120382675551}
@@ -2362,6 +2362,11 @@ PrefabInstance:
       objectReference: {fileID: 3878009586611829517}
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
+      propertyPath: edges.Array.data[0].endNode
+      value: 
+      objectReference: {fileID: 6381660273206009497}
+    - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
+        type: 3}
       propertyPath: edges.Array.data[0].weight
       value: -1
       objectReference: {fileID: 0}
@@ -2372,6 +2377,11 @@ PrefabInstance:
       objectReference: {fileID: 3878009586611829517}
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
+      propertyPath: edges.Array.data[1].endNode
+      value: 
+      objectReference: {fileID: 6381660271721443101}
+    - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
+        type: 3}
       propertyPath: edges.Array.data[1].weight
       value: -1
       objectReference: {fileID: 0}
@@ -2380,6 +2390,11 @@ PrefabInstance:
       propertyPath: edges.Array.data[2].startNode
       value: 
       objectReference: {fileID: 3878009586611829517}
+    - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
+        type: 3}
+      propertyPath: edges.Array.data[2].endNode
+      value: 
+      objectReference: {fileID: 6381660273218385446}
     - target: {fileID: 4430382993257440652, guid: 6e142b880a0c3464bb2f06caacad30ef,
         type: 3}
       propertyPath: edges.Array.data[2].weight
@@ -3913,7 +3928,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3613663
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5740,7 +5755,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5
+      value: 8.97
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5750,7 +5765,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.7200012
+      value: -4.14
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
@@ -5996,7 +6011,7 @@ PrefabInstance:
     - target: {fileID: 3352077945606557732, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
       propertyPath: m_Name
-      value: ExitPoint_24RoerickRiverWest
+      value: ExitPoint_24 RoerickRiverWest
       objectReference: {fileID: 0}
     - target: {fileID: 3352077945606557733, guid: 50ab427d8ea3cb943b84afd96d700f61,
         type: 3}
