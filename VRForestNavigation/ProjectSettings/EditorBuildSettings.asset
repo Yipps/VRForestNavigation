@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level/Scenes/TeleportWarping.unity
     guid: a2ce7cdf8be2c794ea6f442e1af2c458
+  - enabled: 1
+    path: Assets/GameStart.unity
+    guid: a1465c5b105cd5741828fd5afe2ca270
+  - enabled: 1
+    path: Assets/Level/Scenes/WorkingDraft-Pat.unity
+    guid: 7ab24b4be037e3e4f80651ee65ff521d
   m_configObjects: {}
