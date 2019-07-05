@@ -19,12 +19,6 @@ public class WatchController : MonoBehaviour
         UpdateWatchTime(0);
     }
 
-    private void OnEnable()
-    {
-        TimeSpan ts = TimeSpan.FromMinutes(PlayerManager.instance.currentTimeInMinutes);
-        timeText.text = string.Format(" {0:00}\n:{1:00}", ts.TotalHours, ts.Minutes);
-    }
-
     private void UpdateWatchTime(int additionalTime)
     {
         
