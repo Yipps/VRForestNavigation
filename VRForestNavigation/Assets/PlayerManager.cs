@@ -6,16 +6,40 @@ using VRTK;
 
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager instance;
+
     public GameObject[] leftHandObjects;
     public GameObject[] rightHandObjects;
+
+    public GameObject Sun;
+    private Material skyMat;
 
     private int currentLeftObjectIndex = 0;
     private int currentRightObjectIndex = 0;
 
+    public int currentTimeInMinutes = 725;
+
+    public int endTimeInMinutes = 1200;
+
+    public Color startColor;
+    public Color endColor;
+
+    public float startExposure = .9f;
+    public float endExposure = .6f;
+
+    public float startSunIntensity = 1f;
+    public float endSunIntensity = 3f;
+
+    private Vector3 startAngle = new Vector3(80, -90, 0);
+    private Vector3 endAngle = new Vector3(160, -90, 0);
 
 
-    
 
+    private void Awake()
+    {
+        instance = this;
+        skyMat = RenderSettings.skybox;
+    }
 
     private void Start()
     {
@@ -42,6 +66,22 @@ public class PlayerManager : MonoBehaviour
                 rightHandObjects[x].SetActive(false);
             }
         }
+
+        
+    }
+
+    public void UpdateDaylight()
+    {
+        Sun.transform.rotation = Quaternion.Euler(Vector3.Lerp(startAngle, endAngle, (currentTimeInMinutes - 725f) / (endTimeInMinutes - 725f)));
+        float currentExposure = Mathf.Lerp(startExposure, endExposure, (currentTimeInMinutes - 725f) / (endTimeInMinutes - 725f));
+        Color currentTint = Color.Lerp(startColor, endColor, (currentTimeInMinutes - 725f) / (endTimeInMinutes - 725f));
+        float currentSunIntensity = Mathf.Lerp(startSunIntensity,endSunIntensity, (currentTimeInMinutes - 725f) / (endTimeInMinutes - 725f));
+
+        print((currentTimeInMinutes - 725f) / (endTimeInMinutes - 725f));
+        skyMat.SetColor("_TintColor", currentTint);
+        skyMat.SetFloat("_Exposure", currentExposure);
+
+        Sun.GetComponent<Light>().intensity = currentSunIntensity;
     }
 
     private void OnEnable()

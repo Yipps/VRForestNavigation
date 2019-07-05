@@ -9,7 +9,6 @@ public class WatchController : MonoBehaviour
     public float watchDelay = 3;
 
     private AudioSource watchSound;
-    private int currentTimeMin = 725;
     TextMeshPro timeText;
 
     // Start is called before the first frame update
@@ -22,17 +21,20 @@ public class WatchController : MonoBehaviour
 
     private void UpdateWatchTime(int additionalTime)
     {
-        int currentHour = currentTimeMin / 60;
-        currentTimeMin += additionalTime;
+        
+        int currentHour = PlayerManager.instance.currentTimeInMinutes / 60;
+        PlayerManager.instance.currentTimeInMinutes += additionalTime;
 
-        if(currentHour != currentTimeMin / 60 && watchSound != null)
+        if(currentHour != PlayerManager.instance.currentTimeInMinutes / 60 && watchSound != null)
         {
 
             StartCoroutine(DelayedPulse());
         }
 
-        TimeSpan ts = TimeSpan.FromMinutes(currentTimeMin);
+        TimeSpan ts = TimeSpan.FromMinutes(PlayerManager.instance.currentTimeInMinutes);
         timeText.text = string.Format(" {0:00}\n:{1:00}", ts.TotalHours, ts.Minutes);
+
+        PlayerManager.instance.UpdateDaylight();
     }
 
     public IEnumerator DelayedPulse()

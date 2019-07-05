@@ -1095,6 +1095,15 @@ MonoBehaviour:
   - {fileID: 2264064360680237744}
   rightHandObjects:
   - {fileID: 3725744805536333472}
+  Sun: {fileID: 0}
+  currentTimeInMinutes: 725
+  endTimeInMinutes: 1200
+  startColor: {r: 1, g: 0.8745098, b: 0.8, a: 0}
+  endColor: {r: 0.24705882, g: 0.1254902, b: 0.047058824, a: 0}
+  startExposure: 0.9
+  endExposure: 0.6
+  startSunIntensity: 1
+  endSunIntensity: 0.3
 --- !u!1 &7994352308205221548
 GameObject:
   m_ObjectHideFlags: 0
