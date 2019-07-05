@@ -31,9 +31,11 @@ public class WatchController : MonoBehaviour
             StartCoroutine(DelayedPulse());
         }
 
-        TimeSpan ts = TimeSpan.FromMinutes(PlayerManager.instance.currentTimeInMinutes);
-        timeText.text = string.Format(" {0:00}\n:{1:00}", ts.TotalHours, ts.Minutes);
-
+        int currentTime = PlayerManager.instance.currentTimeInMinutes;
+        TimeSpan ts = TimeSpan.FromMinutes((double)currentTime);
+        print(ts);
+        timeText.text = ts.ToString(@"hh\:mm");
+        timeText.text = timeText.text.Insert(2, "\n");
         PlayerManager.instance.UpdateDaylight();
     }
 
