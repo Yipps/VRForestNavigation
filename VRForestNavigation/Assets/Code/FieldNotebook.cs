@@ -21,11 +21,13 @@ public class FieldNotebook : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        anim.keepAnimatorControllerStateOnDisable = true;
     }
 
     private void OnEnable()
     {
         VRTK_SDKManager.instance.scriptAliasLeftController.GetComponent<VRTK_ControllerEvents>().TouchpadAxisChanged += DoChangePage;
+        
     }
 
     private void OnDisable()
@@ -38,14 +40,14 @@ public class FieldNotebook : MonoBehaviour
         //print("Raw input = " + e.touchpadAxis.x);
         int pageChangeIndex = 0;
 
-        if (e.touchpadAxis.x > 0.3f)
-        {
-            pageChangeIndex = 1;
-            ChangePage(pageChangeIndex);
-        }
-        else if(e.touchpadAxis.x < -0.3f)
+        if (e.touchpadAxis.x > 0.2f)
         {
             pageChangeIndex = -1;
+            ChangePage(pageChangeIndex);
+        }
+        else if(e.touchpadAxis.x < -0.2f)
+        {
+            pageChangeIndex = 1;
             ChangePage(pageChangeIndex);
         }
         else
