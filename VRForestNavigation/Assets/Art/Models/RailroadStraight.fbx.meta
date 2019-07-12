@@ -3,7 +3,17 @@ guid: b88938798515af941844262b2f036846
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: a9a93bffe7316f24db5568323457bbf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodPlank
+    second: {fileID: 2100000, guid: dbbbb090ef92c17449fc90afa78df78c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

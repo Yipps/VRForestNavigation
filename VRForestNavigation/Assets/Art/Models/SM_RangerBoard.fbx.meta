@@ -5,6 +5,21 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Board
+    second: {fileID: 2100000, guid: 00b1a2d0881f0ef41b8c1416a43d7b64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_RangerBoard
+    second: {fileID: 2100000, guid: f8b4bc5cff7e4c64c93e94bc9390478b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodPlank
+    second: {fileID: 2100000, guid: acf28b4ea3c931c44b53310c84b4107c, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: RangerBoardRoof
